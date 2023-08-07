@@ -1,0 +1,112 @@
+   0 whoami
+   1 pwd
+   2 ls
+   3 ls --help
+   4 ls -a
+   5 clear
+   6 history
+   7 pwd
+   8 cd ..
+   9 cd
+  10 cd ..
+  11 cd -l
+  12 ls -l
+  13 cd s
+  14 cd sys/
+  15 cd h
+  16 cd home/
+  17 mk
+  18 exit
+  19 cd home/
+  20 cd s
+  21 cd -l
+  22 ls -l
+  23 cd ..
+  24 cd h
+  25 cd home/
+  26 mkdir user
+  27 ls
+  28 cd user
+  29 mkdit task
+  30 ls
+  31 cd task
+  32 mkdir task
+  33 ls
+  34 cd task
+  35 touch file.txt
+  36 ls
+  37 cd /home/
+  38 ls
+  39 tree
+  40 cd /
+  41 ls
+  42 tree
+  43 cd /home
+  44 ls
+  45 mkdir user1
+  46 ls
+  47 cd user1
+  48 mkdir task1
+  49 ls
+  50 cd task1/
+  51 touch touch filel.txt
+  52 ls
+  53 touch foflel.txt
+  54 touch filel.txt
+  55 touch file1.txt
+  56 ls
+  57 cd ..
+  58 cd /home/user1/task1
+  59 cd /task1
+  60 cd task 1
+  61 cd /home
+  62 cd /
+  63 mkdir /home/user2
+  64 mkdir /home/user2/task2
+  65 touch /home/user2/task2/file2.txt
+  66 tree home
+  67 ls -R /home/
+  68 clear
+  69 cd
+  70 mkdir /home/user3/task3
+  71 mkdir --help
+  72 mkdir -p /home/user3/task3/
+  73 touch /home/user3/task3/file3.txt
+  74 tree /home/
+  75 mkdir -p /home/user4/task4 touch /home/user4/task4/file4.txt
+  76 ls
+  77 tree /home
+  78 ls -R /home
+  79 mkdir -p /home/user4/task4 && touch /home/user4/task4/file4.txt
+  80 clear
+  81 mkdir -p /opt/1 /opt/2 /opt/3 /tmp/123 
+  82 tree /home/
+  83 cd
+  84 cp /home/user/task/file.txt /opt/file.txt
+  85 ls /opt
+  86 tree /opt
+  87 clear
+  88 ls /opt
+  89 tree /home/
+  90 cp /home/user/task/file.txt /opt/newfile.txt
+  91 cp /home/user1/task1/ /opt
+  92 cp --help
+  93 cp -r
+  94 cp -r /home/user1/task1/ /opt
+  95 cp -r /home/user1/task1/ /opt/newtask1
+  96 mv /home/user2/task2/file2.txt  /opt/newfile2.txt
+  97 ls
+  98 mv readme.txt newreadme.txt
+  99 ls
+ 100 clear
+ 101 rmdir --help
+ 102 rm --help
+ 103 clear
+ 104 tree /home/
+ 105 rm /home/user3
+ 106 rm --help
+ 107 -rm -rf /home/user3
+ 108 rm -rf /home/user3
+ 109 clear
+ 110 history 
+ 111 history > history.txt
